@@ -92,7 +92,7 @@ class Bullet(Hero):
         self.rect.y += self.y_direction
 
 
-e1 = Enemy('враг.png', 550, 500, 120, 5)
+e1 = Enemy('враг.png', 550, 500, 125, 5)
 e1.resize(50, 57)
 
 e2 = Enemy('враг.png', 150, 200, 120, 5)
